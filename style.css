@@ -215,7 +215,7 @@ main {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: #263238;
+  background-image: linear-gradient(to top left, #753682 0%, #bf2e34 100%);
 }
 
 .loader {
@@ -223,7 +223,7 @@ main {
   height: 40px;
   position: relative;
   display: inline-block;
-  --base-color: #263238;
+  --base-color: #9a325b;
   /*use your base color*/
 }
 

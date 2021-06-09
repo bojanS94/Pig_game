@@ -3,7 +3,7 @@
 window.addEventListener('DOMContentLoaded', () => {
     //Show loading screen
     const gameLoad = () => {
-        loader.style.display = 'none';
+        loader.style.cssText = 'display: none';
     }
     setTimeout(gameLoad, 1200);
     //Variables
